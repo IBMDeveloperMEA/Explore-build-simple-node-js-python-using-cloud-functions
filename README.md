@@ -4,10 +4,10 @@
 
 ## Workshop Resources
 
-- Login/Sign Up for IBM Cloud[Here](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai)
+- Login/Sign Up for IBM Cloud [Here](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai)
 - [Presentation slides]()
 - Workshop Replay [Here](https://www.crowdcast.io/e/serverless-hello-world)
-- [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)
+- [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)<br>
 
 - Servereless Q&A [Here](ibm.biz/serverlessQA)
 - IBM Cloud Functions[Pricing](https://cloud.ibm.com/functions/learn/pricing)
@@ -265,10 +265,10 @@ Now you can try these steps with your own code. Experiment some more with runnin
 
 ## Workshop Resources
 
-- Login/Sign Up for IBM Cloud[Here](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai)
+- Login/Sign Up for IBM Cloud [Here](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai)
 - [Presentation slides]()
 - Workshop Replay [Here](https://www.crowdcast.io/e/serverless-hello-world)
-- [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)
+- [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)<br>
 
 - Servereless Q&A [Here](ibm.biz/serverlessQA)
 - IBM Cloud Functions[Pricing](https://cloud.ibm.com/functions/learn/pricing)
