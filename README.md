@@ -310,7 +310,7 @@ In these next steps, you will create a trigger to periodically run the python fu
 
 <img width="1440" alt="Screen Shot 2021-08-19 at 12 04 21 PM" src="https://user-images.githubusercontent.com/15332386/130038240-9335c6f3-e482-46e3-aa9f-28b9a8980a5c.png">
 
-4. Wait a minute and you will see the database created there. Click on it and inside it you will start seeing the documents that are being created from the cloud function. If you expand every document you see that each one has its own counter value and its time value (these are the data that we are writing for each document and sending it to Cloudant DB). Since the triggers acivate the function every minute, then we will get a new document uploaded to the database every minute. You need to refresh the page to see the new documents.
+4. Wait a minute and you will see the database created there. Click on it and inside it you will start seeing the documents that are being created from the cloud function. If you expand every document you see that each one has its own counter value and its time value (these are the data that we are writing for each document and sending it to Cloudant DB). Since the trigger activates the function every minute, we will get a new document uploaded to the database every minute. You need to refresh the page to see the new documents.
 
 <img width="1440" alt="Screen Shot 2021-08-19 at 12 51 27 PM" src="https://user-images.githubusercontent.com/15332386/130039148-b4060cad-b494-4a5e-87df-7c26671a28ab.png">
 
