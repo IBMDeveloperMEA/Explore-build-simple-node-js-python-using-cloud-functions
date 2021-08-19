@@ -98,11 +98,11 @@ With the command line interface, you perform these basic operations from the she
 
 1. Click **Invoke** to test your action directly from your browser.
 
-    ![Screen capture of the code editor screen with the Invoke button highlighted](images/ibmcloud-functions-action-invoke.png)
+    <img width="960" alt="6" src="https://user-images.githubusercontent.com/15332386/130032428-b87f7856-4114-4424-9f65-a82f67427f1a.png">
 
     An **Activations** pane should appear with an activation record caused by your invocation that includes an activation ID, invocation results, and any log entries the function writes (for this tutorial, no log entries should appear).
 
-    ![Screen capture of the action test results that appear in the Activations pane](images/ibmcloud-functions-activation.png)
+    <img width="960" alt="7" src="https://user-images.githubusercontent.com/15332386/130032441-391ff6a7-1953-47fb-b37d-3bc2e46a0105.png">
 
     Now you should see that the result of your invocation is a JSON object with the following `Hello World` message:
 
@@ -130,7 +130,7 @@ The user interface allows named parameters to be declared and passed to function
 
 1. This action now requires the input parameters `name` and `place`. To add parameters, click **Invoke with parameters**.
 
-    ![Screen capture of the code editor screen with the Invoke with parameters button highlighted](images/ibmcloud-functions-action-invoke-params.png)
+    <img width="600" alt="8" src="https://user-images.githubusercontent.com/15332386/130032453-aae3282b-7c59-4cd1-b4b5-99d510a1c62a.png">
 
     This will cause the **Change Action Input** dialog box to appear.
 
@@ -143,7 +143,7 @@ The user interface allows named parameters to be declared and passed to function
     }
     ```
 
-    ![Screen capture of the Change Action Input dialog box](images/ibmcloud-functions-action-input-dialog.png)
+    <img width="600" alt="9" src="https://user-images.githubusercontent.com/15332386/130032460-fd803f3c-f853-49a4-8432-34a7c00a8333.png">
 
 1. Run the action again using the new input data by clicking **Invoke**. You should receive the following result in the **Activations** pane:
 
@@ -159,7 +159,7 @@ Now you will make your `hello` action web-accessible and have IBM Cloud Function
 
 1. Select **Actions** from the menu. Then, select your `hello` action.
 
-    ![Screen capture of the Actions page with the hello action highlighted](images/ibmcloud-functions-action-select.png)
+    <img width="600" alt="15" src="https://user-images.githubusercontent.com/15332386/130032877-df4c94e4-9a85-48f0-b69f-8baadda5076a.png">
 
 1. Update your existing `hello` action with the following code:
 
@@ -175,21 +175,21 @@ Now you will make your `hello` action web-accessible and have IBM Cloud Function
 
     Click **Save**.
 
-    ![Screen capture of the code editor screen with the Save button highlighted](images/ibmcloud-functions-web-action-create.png)
+    <img width="600" alt="16" src="https://user-images.githubusercontent.com/15332386/130033457-cb65a43a-d73a-4021-a7bb-c2853d64f15b.png">
 
     When you click **Invoke**, the function now returns your `Hello` message formatted in HTML within the `body` of the HTTP response. Note that you also set the proper `Content-Type` to `text/html` in the HTTP response header.
 
 1. To make your action a web action, select **Endpoints** from the menu. Then, check the **Enable as Web Action** box and click **Save**.
 
-    ![Screen capture of the Endpoints page with a check mark in the Enable as Web Action box and the Save button highlighted](images/ibmcloud-functions-web-action-enable.png)
+    <img width="600" alt="17" src="https://user-images.githubusercontent.com/15332386/130033463-fa458bd0-f034-4dce-90ba-e84e3a02369b.png">
 
 1. After it is saved, you can open the generated URL in your web browser by clicking on it.
 
-    ![Screen capture of the Web Action portion of the Endpoints page, with the generated URL highlighted](images/ibmcloud-functions-web-action-url.png)
+    <img width="1052" alt="18" src="https://user-images.githubusercontent.com/15332386/130033471-83cfd450-79c4-49b6-a0f1-a3756086c166.png">
 
     Now, your greeting should appear on your web browser page.
 
-    ![Screen capture of the greeting, Hello, undefined from undefined, in red text on the web browser page](images/ibmcloud-functions-web-action-output.png)
+    <img width="600" alt="19" src="https://user-images.githubusercontent.com/15332386/130033477-42bdcc14-7ae6-4bcf-8d75-70c028192efa.png">
 
     However, the greeting shows `undefined` for the values of `name` and `place`. Let's fix that.
 
@@ -201,10 +201,90 @@ Now you will make your `hello` action web-accessible and have IBM Cloud Function
 
     The query parameters for `name` and `place` are passed as input parameters into the action and now the message "Hello, Frodo from Shire" should appear on your web browser page.
 
-    ![Screen capture of the greeting, Hello, Frodo from Shirt, in red text on the web browser page](images/ibmcloud-functions-web-action-output-params.png)
-  
-  
-### 4. Create a trigger
+    <img width="600" alt="20" src="https://user-images.githubusercontent.com/15332386/130033479-21ad1b92-1660-43bb-961c-3ef998d74634.png">
+    
+    
+### 4.Create a Cloudant DB service
+1. Go back to IBM Cloud main dashboard and in the search bar type **Cloudand**. You will see **Cloudant-DB** service. Click it.
+
+ <img width="1440" alt="Screen Shot 2021-08-19 at 12 02 28 PM" src="https://user-images.githubusercontent.com/15332386/130034479-99f699e9-58e5-4640-a00f-b6cf2394fa59.png">
+ 
+1. Choose **lite plan** and select the region. Click create.
+
+<img width="1440" alt="Screen Shot 2021-08-19 at 12 02 51 PM" src="https://user-images.githubusercontent.com/15332386/130034774-26bc1ca4-6af2-4466-bab8-ef82efae082d.png">
+
+1. Go back to IBM Cloud main dashboard. You will see the Cloudant service created in the resources summary under **Services and Software**. Click on it.
+
+<img width="1374" alt="Screen Shot 2021-08-19 at 12 03 31 PM" src="https://user-images.githubusercontent.com/15332386/130035470-581512fc-c47c-4c6b-808e-dd19640fd05c.png">
+
+1. Go to **Service Credentials**. Click on **New Credential**. This will generate the `apikey` and `username`. Note them down because we will use them in the next step.
+<img width="1440" alt="Screen Shot 2021-08-19 at 12 03 52 PM" src="https://user-images.githubusercontent.com/15332386/130035915-6e198e3e-8c51-49a9-8aa0-7cfda67f1096.png">
+
+### 5. Create a Python Action
+1. Just like we created the first Node.js action. We will repeat the same thing and create a new **Action** but this time we will choose Python environment.
+<img width="1440" alt="Screen Shot 2021-08-19 at 12 21 25 PM" src="https://user-images.githubusercontent.com/15332386/130034153-7f3ffebf-eedd-4a77-acf8-fb06d030c216.png">
+
+1. Copy this code inside the cloud function
+```python
+#
+#
+# main() will be run when you invoke this action
+#
+# @param Cloud Functions actions accept a single parameter, which must be a JSON object.
+#
+# @return The output of this action, which must be a JSON object.
+#
+#
+from cloudant.client import Cloudant
+from cloudant.error import CloudantException
+from cloudant.result import Result, ResultByKey
+from datetime import datetime
+
+counter = 0
+
+def main(dict):
+
+    client = Cloudant.iam(dict['username'], dict['apikey'], connect=True)
+    global counter
+    counter+=1
+    
+    res = addTime(dict,client)
+    return { 'response': res }
+
+def addTime(dict, client):
+   
+    response= ""
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    myDb = client.create_database("demo-db2")
+    if myDb.exists():
+        
+        data = {
+            'counter': counter,
+            'time': current_time,
+        
+            }
+    
+        # Create a document using the Database API
+        doc = myDb.create_document(data)
+
+        # Check that the document exists in the database
+        if doc.exists():
+            print('SUCCESS!!')
+            response= "SUCCESS!!'"
+        else:
+            response = "Something happened. Please try again"
+      
+    return response    
+    
+```
+
+1. Go to **Parameters** and create 2 parameters: `apikey` and `username`. Add the values that you have from the cloudant db created in the previous step (apikey and username).
+
+<img width="1440" alt="Screen Shot 2021-08-19 at 12 01 05 PM" src="https://user-images.githubusercontent.com/15332386/130037602-c889fbd2-2b55-47e3-a00c-8dc2c8ad752e.png">
+
+
+### 5. Create a trigger
 
 As a FaaS platform, IBM Cloud Functions runs code in response to events. Events can be generated by the following:
 
@@ -212,40 +292,32 @@ As a FaaS platform, IBM Cloud Functions runs code in response to events. Events 
 
 * **Services** that are either part of the IBM Cloud platform or external service providers using triggers.
 
-In these next steps, you will create a trigger to periodically run a function using the IBM Cloud Functions built-in alarm service.
-
-1. Update your existing `hello` action with the following sample code and click **Save**:
-
-    ```
-    var counter = 0; // global variable
-    function main(msg) {
-        var date = new Date();
-        var time = date.getHours() + ":" + date.getMinutes() + ":" +
-        date.getSeconds();
-        counter++;
-        return { message: "It is " + time + ". This action has been called " + counter + " time(s)." };
-    }
-    ```
-
-    This action returns the time and the frequency of times invoked. A counter is used as a global variable to maintain the count. Because it is a global variable, it persists across invocations of the same action.
+In these next steps, you will create a trigger to periodically run the python function using the IBM Cloud Functions built-in alarm service.
 
 1. Click **Connected Triggers** in the navigation menu and then click **Add Trigger**.
 
-    ![Screen capture of the Connected Triggers page with Add Trigger highlighted](images/ibmcloud-functions-connected-trigger-add.png)
-
+    <img width="960" alt="10" src="https://user-images.githubusercontent.com/15332386/130032464-dd595ee3-2358-48f9-80f9-c9281712012b.png">
      Now select a **Periodic** as your trigger type.
 
-    ![Screen capture of Connect Trigger page with Periodic option highlighted](images/ibmcloud-functions-connected-trigger-select.png)
+    ![11](https://user-images.githubusercontent.com/15332386/130032854-7a89fb14-9053-420c-ba6b-19cff6683549.png)
 
 1. In the **Trigger Name** field, type `minute alarm`. Then, within the **Timer Settings** section and **UTC Minutes** pattern, select **Every Minute** from the **Select a pattern** list. Click the **Create & Connect** button to create the trigger and connect it to the `hello` action.
 
-    ![Screen capture of the New Trigger Configuration page](images/ibmcloud-functions-trigger-periodic-configure.png)
+    <img width="884" alt="12" src="https://user-images.githubusercontent.com/15332386/130032862-ee154859-1a81-4cec-86bc-ee5046ade4c8.png">
+    
+1. Now if you go back to your Cloudant DB service, click on **Launch Dashboard**
+
+<img width="1440" alt="Screen Shot 2021-08-19 at 12 04 21 PM" src="https://user-images.githubusercontent.com/15332386/130038240-9335c6f3-e482-46e3-aa9f-28b9a8980a5c.png">
+
+1. Wait a minute and you will see the database created there. Click on it and inside it you will start seeing the documents that are being created from the cloud function. If you expand every document you see that each one has its own counter value and its time value (these are the data that we are writing for each document and sending it to Cloudant DB). Since the triggers acivate the function every minute, then we will get a new document uploaded to the database every minute. You need to refresh the page to see the new documents.
+
+<img width="1440" alt="Screen Shot 2021-08-19 at 12 51 27 PM" src="https://user-images.githubusercontent.com/15332386/130039148-b4060cad-b494-4a5e-87df-7c26671a28ab.png">
 
 1. Make sure you return to the **Triggers** page and delete the trigger, or it will continue to fire every minute, which is charged against your account tier's compute usage!
 
     Click the **Delete trigger** icon next to the `minute alarm` to delete it.
 
-    ![Screen capture of the Triggers page with the Delete trigger icon highlighted next to the minute alarm trigger](images/ibmcloud-functions-trigger-delete.png)
+   <img width="1568" alt="14" src="https://user-images.githubusercontent.com/15332386/130032875-0fa65606-cdc7-4a49-aabe-80c049962d04.png">
 
     Select **Delete** on the confirmation dialog box.
 
@@ -253,7 +325,7 @@ In these next steps, you will create a trigger to periodically run a function us
 
 ## Summary
 
-Congratulations! You successfully built and deployed several serverless functions, including web actions that can be invoked from the browser or from microservices - all from inside a browser.
+Congratulations! You successfully built and deployed several serverless functions, including web actions that can be invoked from the browser or from microservices (all from inside a browse), and an integration with Cloudant DB.
 
 Now you can try these steps with your own code. Experiment some more with running cloud-native, serverless apps written in Node.js.
 
