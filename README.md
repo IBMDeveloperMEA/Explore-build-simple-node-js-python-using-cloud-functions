@@ -3,7 +3,7 @@
 ## Workshop Resources
 
 - Login/Sign Up for IBM Cloud [Here](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai)
-- [Presentation slides]()
+- [Presentation slides](https://github.com/IBMDeveloperMEA/Explore-build-simple-node-js-python-using-cloud-functions/blob/main/Explore%20and%20Build%20Simple%20Serverless%20Node.js%20%26%20Python%20apps%20using%20Cloud%20Functions.pdf)
 - Workshop Replay [Here](https://www.crowdcast.io/e/serverless-hello-world)
 - [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)<br/>
 
@@ -39,7 +39,7 @@ Completing this tutorial should take about 45 minutes.
 
 ## Prerequisites
 
-To complete this tutorial, you will need an IBM Cloud account. If you don't have an existing account, visit the [Setting up your IBM Cloud account](https://cloud.ibm.com/docs/account?topic=account-account-getting-started&cm_sp=ibmdev-_-developer-tutorials-_-cloudreg) documentation for detailed instructions.
+To complete this tutorial, you will need an IBM Cloud account. If you don't have an existing account, visit the [Setting up your IBM Cloud account](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai) documentation for detailed instructions.
 
 ## Steps
 
@@ -56,7 +56,7 @@ There are two main options to get started with IBM Cloud Functions. With both, y
 
 With the command line interface, you perform these basic operations from the shell. With the IBM Cloud Functions user interface, you perform the same operations from your browser. This tutorial uses the browser user interface.
 
-1. Log in to you [IBM Cloud](https://cloud.ibm.com?cm_sp=ibmdev-_-developer-tutorials-_-cloudreg) account.
+1. Log in to you [IBM Cloud](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai) account.
 
 1. Click the **Navigation Menu** icon.
 
@@ -334,7 +334,7 @@ Now you can try these steps with your own code. Experiment some more with runnin
 ## Workshop Resources
 
 - Login/Sign Up for IBM Cloud [Here](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai)
-- [Presentation slides]()
+- [Presentation slides](https://github.com/IBMDeveloperMEA/Explore-build-simple-node-js-python-using-cloud-functions/blob/main/Explore%20and%20Build%20Simple%20Serverless%20Node.js%20%26%20Python%20apps%20using%20Cloud%20Functions.pdf)
 - Workshop Replay [Here](https://www.crowdcast.io/e/serverless-hello-world)
 - [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)<br/>
 
