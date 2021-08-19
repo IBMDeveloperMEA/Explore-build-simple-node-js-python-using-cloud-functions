@@ -8,7 +8,7 @@
 - [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)<br/>
 
 - Serverless Q&A [Here](ibm.biz/serverlessQA)
-- IBM Cloud Functions[Pricing](https://cloud.ibm.com/functions/learn/pricing)
+- IBM Cloud Functions [Pricing](https://cloud.ibm.com/functions/learn/pricing)
 - IBM Cloud Functions [Limitations](https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-limits)
 - Our [Meetup Page](https://www.meetup.com/IBM-Cloud-MEA/)
 
@@ -339,7 +339,7 @@ Now you can try these steps with your own code. Experiment some more with runnin
 - [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)<br/>
 
 - Serverless Q&A [Here](ibm.biz/serverlessQA)
-- IBM Cloud Functions[Pricing](https://cloud.ibm.com/functions/learn/pricing)
+- IBM Cloud Functions [Pricing](https://cloud.ibm.com/functions/learn/pricing)
 - IBM Cloud Functions [Limitations](https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-limits)
 - Our [Meetup Page](https://www.meetup.com/IBM-Cloud-MEA/)
 
