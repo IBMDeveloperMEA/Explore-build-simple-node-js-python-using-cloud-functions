@@ -22,9 +22,6 @@ There are 3 steps to create your account on [IBM Cloud](https://cloud.ibm.com/re
   
 <img width="1188" alt="Screen Shot 2021-05-31 at 11 25 01 AM" src="https://user-images.githubusercontent.com/15332386/120156441-0769d980-c203-11eb-8cb3-29f4a8d5616a.png">
 
-## Define Problem area - Copied from IBM Developer
-
-
 ## Tutorial
   _Serverless computing_ refers to a model where the existence of servers is entirely abstracted away. Even though servers exist, developers are relieved from the need to care about their operation. They are relieved from the need to worry about low-level infrastructural and operational details such as scalability, high-availability, infrastructure-security, and other details. Serverless computing is essentially about reducing maintenance efforts to allow developers to quickly focus on developing code that adds value.
 
