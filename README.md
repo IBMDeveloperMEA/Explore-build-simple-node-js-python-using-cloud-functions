@@ -204,27 +204,28 @@ Now you will make your `hello` action web-accessible and have IBM Cloud Function
     <img width="600" alt="20" src="https://user-images.githubusercontent.com/15332386/130033479-21ad1b92-1660-43bb-961c-3ef998d74634.png">
     
     
-### 4.Create a Cloudant DB service
-1. Go back to IBM Cloud main dashboard and in the search bar type **Cloudand**. You will see **Cloudant-DB** service. Click it.
+### 4. Create a Cloudant DB service
+1. Go back to IBM Cloud main dashboard and in the search bar type **Cloudant**. You will see **Cloudant** service. Click it.
 
  <img width="1440" alt="Screen Shot 2021-08-19 at 12 02 28 PM" src="https://user-images.githubusercontent.com/15332386/130034479-99f699e9-58e5-4640-a00f-b6cf2394fa59.png">
  
-1. Choose **lite plan** and select the region. Click create.
+2. Choose **lite plan** and select the region. Click create.
 
 <img width="1440" alt="Screen Shot 2021-08-19 at 12 02 51 PM" src="https://user-images.githubusercontent.com/15332386/130034774-26bc1ca4-6af2-4466-bab8-ef82efae082d.png">
 
-1. Go back to IBM Cloud main dashboard. You will see the Cloudant service created in the resources summary under **Services and Software**. Click on it.
+3. Go back to IBM Cloud main dashboard. You will see the Cloudant service created in the resources summary under **Services and Software**. Click on it.
 
 <img width="1374" alt="Screen Shot 2021-08-19 at 12 03 31 PM" src="https://user-images.githubusercontent.com/15332386/130035470-581512fc-c47c-4c6b-808e-dd19640fd05c.png">
 
-1. Go to **Service Credentials**. Click on **New Credential**. This will generate the `apikey` and `username`. Note them down because we will use them in the next step.
+4. Go to **Service Credentials**. Click on **New Credential**. This will generate the `apikey` and `username`. Note them down because we will use them in the next step.
+
 <img width="1440" alt="Screen Shot 2021-08-19 at 12 03 52 PM" src="https://user-images.githubusercontent.com/15332386/130035915-6e198e3e-8c51-49a9-8aa0-7cfda67f1096.png">
 
 ### 5. Create a Python Action
 1. Just like we created the first Node.js action. We will repeat the same thing and create a new **Action** but this time we will choose Python environment.
 <img width="1440" alt="Screen Shot 2021-08-19 at 12 21 25 PM" src="https://user-images.githubusercontent.com/15332386/130034153-7f3ffebf-eedd-4a77-acf8-fb06d030c216.png">
 
-1. Copy this code inside the cloud function
+2. Copy this code inside the cloud function
 ```python
 #
 #
@@ -279,7 +280,7 @@ def addTime(dict, client):
     
 ```
 
-1. Go to **Parameters** and create 2 parameters: `apikey` and `username`. Add the values that you have from the cloudant db created in the previous step (apikey and username).
+3. Go to **Parameters** and create 2 parameters: `apikey` and `username`. Add the values that you have from the cloudant db created in the previous step (apikey and username).
 
 <img width="1440" alt="Screen Shot 2021-08-19 at 12 01 05 PM" src="https://user-images.githubusercontent.com/15332386/130037602-c889fbd2-2b55-47e3-a00c-8dc2c8ad752e.png">
 
