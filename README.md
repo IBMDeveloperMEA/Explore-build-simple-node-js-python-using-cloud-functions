@@ -60,11 +60,11 @@ With the command line interface, you perform these basic operations from the she
 
 1. Click the **Navigation Menu** icon.
 
-    ![Screen capture of the IBM Cloud dashboard with the Naivgation Menu icon highlighted](images/ibmcloud-dashboard-top-menu.png)
+    <img width="960" alt="1" src="https://user-images.githubusercontent.com/15332386/130031923-aa2cc7f1-0640-45fe-bb54-1e16cdc2043a.png">
 
 1. Click **Functions** from the menu to access IBM Cloud Functions, the cloud-native development experience on IBM Cloud.
 
-    ![Screen capture of the Navigation Menu with the Functions option highlighted](images/ibmcloud-service-dropdown.png)
+    <img width="120" alt="2" src="https://user-images.githubusercontent.com/15332386/130031934-da67ed4a-f72a-4236-8d44-85fabc33492b.png">
 
 1. You should now be in the IBM Cloud Functions web console. The page should have a navigation menu that provides links to all of the top-level features. In this tutorial, you will explore the following feature areas shown in the menu:
 
@@ -76,15 +76,15 @@ With the command line interface, you perform these basic operations from the she
 
 1. Create your first action by clicking the **Start Creating** button on the functions home page.
 
-    ![Screen capture of the IBM Cloud Functions home page](images/ibmcloud-functions-start-creating.png)
+    <img width="1290" alt="3" src="https://user-images.githubusercontent.com/15332386/130031938-1ed92439-97fa-42d0-abd6-513a79951a35.png">
 
     Then click the **Action** section of the page.
 
-    ![Screen capture of the Create page](images/ibmcloud-functions-create.png)
+    ![4](https://user-images.githubusercontent.com/15332386/130031946-3ba04586-6c81-4c91-8608-4ef28230754f.png)
 
 1. Enter an action name, such as `hello`, and verify that the runtime dropdown shows the latest default Node.js runtime version (for example, Node.js 10). Now click the **Create** button.
 
-    ![Screen capture of the Create Action page](images/ibmcloud-functions-action-create.png)
+    <img width="960" alt="5" src="https://user-images.githubusercontent.com/15332386/130031948-f48ed2b4-6047-4b07-a88e-7cc6daf5a759.png">
 
 1. In the cloud-based code editor that opens, you can create and modify the function of your action. The editor should be pre-filled with a `Hello World` function written in Node.js:
 
