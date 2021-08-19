@@ -1,20 +1,22 @@
-# !!Add workshop title!!
+# Explore and Build Simple Node.js and Python apps using Cloud Functions
 
-Please refer to https://github.com/fawazsiddiqi/slides_to_pages to know how you can deploy slides to https://ibmdevelopermea.github.io
+
 
 ## Workshop Resources
 
-- Login/Sign Up for IBM Cloud: <Link>
-  
-- Hands-On Guide: <Link>
+- Login/Sign Up for IBM Cloud[Here](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai)
+- [Presentation slides]()
+- Workshop Replay [Here](https://www.crowdcast.io/e/serverless-hello-world)
+- [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)
 
-- Slides: <Link>
-
-- Workshop Replay: <Link>
+- Servereless Q&A [Here](ibm.biz/serverlessQA)
+- IBM Cloud Functions[Pricing](https://cloud.ibm.com/functions/learn/pricing)
+- IBM Cloud Functions [Limitations](https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-limits)
+- Our [Meetup Page](https://www.meetup.com/IBM-Cloud-MEA/)
 
 ### **Sign-up/Login to IBM Cloud**
   
-There are 3 steps to create your account on [IBM Cloud](<PUT TRACK LINK HERE>): <br>
+There are 3 steps to create your account on [IBM Cloud](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai): <br>
 1- Put your email and password. <br>
 2- You get a verification link with the registered email to verify your account. <br>
 3- Fill the personal information fields. <br>
@@ -261,19 +263,19 @@ Congratulations! You successfully built and deployed several serverless function
 Now you can try these steps with your own code. Experiment some more with running cloud-native, serverless apps written in Node.js.
 
 
-## Sample Outputs
-
 ## Workshop Resources
 
-- Login/Sign Up for IBM Cloud: <Link>
+- Login/Sign Up for IBM Cloud[Here](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Aug2021-buildasimpleserverlesshelloworldnodejsappusingcloudfunctions-eventid-60ff224614ed545018eec011-global-devadvgrp-dubai-hybrid-workshop-dubai)
+- [Presentation slides]()
+- Workshop Replay [Here](https://www.crowdcast.io/e/serverless-hello-world)
+- [Survey](https://www.surveygizmo.com/s3/6083679/528d6be4e0fd?uid=60ff224614ed545018eec011)
 
-- Hands-On Guide: <Link>
-
-- Slides: <Link>
-
-- Workshop Replay: <Link>
+- Servereless Q&A [Here](ibm.biz/serverlessQA)
+- IBM Cloud Functions[Pricing](https://cloud.ibm.com/functions/learn/pricing)
+- IBM Cloud Functions [Limitations](https://cloud.ibm.com/docs/openwhisk?topic=openwhisk-limits)
+- Our [Meetup Page](https://www.meetup.com/IBM-Cloud-MEA/)
 
 
 ## Reference Links
 
-## Authors
+https://developer.ibm.com/tutorials/no-infrastructure-just-code-see-the-sim-plicity-of-serverless/
